@@ -51,12 +51,12 @@ const CardText = () => {
     return (
         <div className="card">
            <div className="textbox">
-            <textarea value = {datos.text1} onChange={handleInputChange} name="text1" placeholder='Escriba aquí texto plano'/>
-            <textarea value = {datos.text2} onChange={handleInputChange} name="text2" placeholder='Escriba aquí texto encriptado' />
+            <textarea value = {datos.text1} onChange={handleInputChange} name="text1" placeholder='Write your text here'/>
+            <textarea value = {datos.text2} onChange={handleInputChange} name="text2" placeholder='Write your encrypted text here' />
            </div>
             <div className="buttonBox">
-                <button className="formButton" onClick={(e)=>{EncryptProcess(e)}}>¡Encriptar!</button>
-                <button className="formButton-2" onClick={(e)=>{DesEncryptProcess(e)}} >Desencriptar</button>
+                <button className="formButton" onClick={(e)=>{EncryptProcess(e)}}>¡Encrypt!</button>
+                <button className="formButton-2" onClick={(e)=>{DesEncryptProcess(e)}} >Decrypt</button>
             </div>
 
         </div>

@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer">
          <div className="Autor">
          <img src={icon} alt="Logo" />
-            <p>Desarrollado por Andrés Díaz - 2021</p>
+            <p>Developed by Andrés Díaz - 2021</p>
          </div>
 
          <ImInfo className="Info" onClick={()=>{setmodal(true)}}/>
