@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #FDD32A;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  max-width: 900px;
+  margin: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.Header{
+  align-content: center;
+  display: flex;
+  font-weight: 600;
+  font-size:  1.5vh;
+  margin: 40px 20px 0px 20px;
+}
+.icon{
+  margin-right: 20px;
+  font-size: 3vh
+}
+
+
+/*footer*/
+
+.footer{
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 40px 20px;
+}
+.Info{
+  font-size: 4vh;
+  cursor: pointer;
+}
+
+.Autor{
+  display: flex;
+  align-items: center;
+}
+
+.Autor img{
+  width: 30px;
+  margin-right: 15px;
+}
+
+.Autor p{
+  font-size: 1.8vh;
+  font-weight: 700;
+}
+
+
+
+/*Card*/
+
+.card{
+  width: 100%;
+  height: 55vh;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.textbox{
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+}
+
+textarea{
+  background-color: rgb(224, 224, 224);
+  resize: none;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 40px;
+  margin: 10px;
+  flex: 1;
+}
+
+.buttonBox{
+  display: flex;
+  flex: 1;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.formButton{
+  flex: 1;
+  display: block;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+  font-size: 2.5vh;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #FDD32A;
+}
+
+.formButton-2{
+  margin: 10px;
+  flex: 1;
+  display: block;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+  font-size: 2.5vh;
+  background-color: #7e7d7b;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media (max-width: 900px) {
+  
+  .card{
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+
+  textarea{
+    padding: 15px;
+  }
+
+  .textbox{
+    flex-direction: column;
   }
 }

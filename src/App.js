@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import {BsFillLockFill} from 'react-icons/bs'
+
+
 import './App.css';
+//import Card from './Componentes/Card';
+import CardText from './Componentes/CardText';
+import Footer from './Componentes/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+
+      <div className="Header">
+        <BsFillLockFill className="icon"/>
+        <h1 className="Titulo">Encrypt with Node Js</h1>
+      </div>
+      <CardText/>
+      <Footer/>
     </div>
   );
 }
