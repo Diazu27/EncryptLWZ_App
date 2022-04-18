@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EncryptLWZ_App/static/css/main.08568004.chunk.css",
-    "main.js": "/EncryptLWZ_App/static/js/main.81451087.chunk.js",
-    "main.js.map": "/EncryptLWZ_App/static/js/main.81451087.chunk.js.map",
+    "main.js": "/EncryptLWZ_App/static/js/main.e66e4207.chunk.js",
+    "main.js.map": "/EncryptLWZ_App/static/js/main.e66e4207.chunk.js.map",
     "runtime-main.js": "/EncryptLWZ_App/static/js/runtime-main.b158dbdc.js",
     "runtime-main.js.map": "/EncryptLWZ_App/static/js/runtime-main.b158dbdc.js.map",
     "static/js/2.62e8530e.chunk.js": "/EncryptLWZ_App/static/js/2.62e8530e.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.b158dbdc.js",
     "static/js/2.62e8530e.chunk.js",
     "static/css/main.08568004.chunk.css",
-    "static/js/main.81451087.chunk.js"
+    "static/js/main.e66e4207.chunk.js"
   ]
 }
